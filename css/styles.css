@@ -597,7 +597,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 12px;
-  margin-bottom: 34px;
+
   margin-left: 8px;
   gap: 12px;
 }
@@ -606,9 +606,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--hero-font-color);
   background-color: var(--selection-color);
@@ -623,11 +620,37 @@ body {
   padding-right: 28px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 36px;
 }
 
 .send-mail-icon {
   fill: currentColor;
 }
+.signup-label + input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--background-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+}
+.signup-label + input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: var(--footer-links-color);
+}
+
 /* PORTFOLIO FILTERS */
 
 .filters-section {
