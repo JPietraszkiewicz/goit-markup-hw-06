@@ -497,6 +497,10 @@ body {
 .sm-footer-icons {
   display: flex;
   flex-direction: column;
+  padding-top: 12px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 .footer-sm {
   display: flex;
@@ -504,11 +508,7 @@ body {
   padding-left: 0;
   padding-top: 20px;
 }
-.sm-footer-icons {
-  padding-top: 12px;
-  padding-bottom: 100px;
-  padding-left: 70px;
-}
+
 .ftr-sm-link {
   background-color: var(--footer-icons-bg);
   border-radius: 50%;
@@ -528,6 +528,7 @@ body {
 }
 
 .footer-join-us {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.17;
   font-weight: 700;
@@ -579,6 +580,29 @@ body {
   color: var(--selection-color);
 }
 
+.signup-label {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--footer-logo-address-color);
+  padding-bottom: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.signup-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  margin-bottom: 34px;
+  margin-left: 8px;
+  gap: 12px;
+}
+.ftr-submit-btn {
+}
 /* PORTFOLIO FILTERS */
 
 .filters-section {
