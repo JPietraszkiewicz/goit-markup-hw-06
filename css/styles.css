@@ -1026,6 +1026,9 @@ body {
 .hidden-checkbox:checked + .checkbox-svg {
   opacity: 1;
 }
+.hidden-checkbox:checked {
+  opacity: 0;
+}
 .hidden-checkbox:focus {
   outline: none;
 }
