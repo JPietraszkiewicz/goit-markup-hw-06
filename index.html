@@ -486,21 +486,60 @@
       <div class="modal"><button type="button" class="close-btn" data-modal-close>
           <svg class="close-icon" width="20" height="20">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-        </button>
+      <div class="modal">
+        <div class="modal-header">
+          <button type="button" class="close-btn" data-modal-close>
+            <svg class="close-icon" width="20" height="20">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+        </div>
         <form class="modal-form">
-          
-          <div class="form-group" role="group" aria-labelledby="contact-details-head">
-            <p id="contact-details-head">Zostaw swoje dane w formularzu poniżej</p>
-            <label for="modal-username">Imię</label>
-            <input id="modal-username" type="text" name="username"/>
-            <label for="modal-phone">Telefon</label>
-            <input id="modal-phone" type="tel" name="phone-number"/>
-            <label for="modal-email">E-mail</label>
-            <input id="modal-email" type="email" name="email"/>
-            <label>Komentarz</label>  
-            <textarea name="feedback" resize="none" placeholder="Wprowadź tekst"></textarea></label> 
+          <p id="contact-details-head">
+            Zostaw swoje dane w formularzu poniżej
+          </p>
+          <div
+            class="form-group"
+            role="group"
+            aria-labelledby="contact-details"
+          >
+            <label for="modal-username" class="modal-label">Imię</label>
+            <div class="username-field">
+              <input
+                id="modal-username"
+                type="text"
+                name="username"
+                class="modal-input"
+              /><svg class="username-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
           </div>
+          <div
+            class="form-group"
+            role="group"
+            aria-labelledby="contact-details"
+          >
+            <label for="modal-phone" class="modal-label">Telefon</label>
+            <div class="phone-field">
+              <input
+                id="modal-phone"
+                type="tel"
+                name="phone-number"
+                class="modal-input"
+              /><svg class="phone-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <label for="modal-email">E-mail</label>
+          <input id="modal-email" type="email" name="email" />
+          <label>Komentarz</label>
+          <textarea
+            name="feedback"
+            resize="none"
+            placeholder="Wprowadź tekst"
+          ></textarea>
         </form>
       </div>
     </div>
