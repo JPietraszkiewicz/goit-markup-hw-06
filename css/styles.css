@@ -328,7 +328,7 @@ body {
 /* NASZ ZESPÓŁ */
 
 .our-team-section {
-  background-color: var(--hero-font-color);
+  background-color: var(--assets-icon-bg);
   padding-top: 94px;
   padding-bottom: 94px;
 }
